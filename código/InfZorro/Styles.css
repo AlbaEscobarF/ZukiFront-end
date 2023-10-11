@@ -1,0 +1,51 @@
+body {
+  background-color: #fff;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  justify-content: center;
+  background-color: #fbdbb8;
+  border-radius: 10%;
+  align-items: center;
+  padding: 60px;
+  position: relative;
+  transform: translateX(20%);
+  transform: translateY(3%);
+}
+
+.imagen {
+  width: 30%;
+  height: 30%;
+  border: 15px solid #fff;
+  border-radius: 50%;
+  position: relative;
+  transform: translateX(98%);
+}
+.imagen2 {
+  width: 50%;
+  height: 50%;
+  border-radius: 7%;
+  position: relative;
+  transform: translateX(50%);
+}
+
+.titulo {
+  font-size: 2em;
+  margin-bottom: 5px;
+  margin-top: 25px;
+  position: relative;
+  transform: translateX(35%);
+}
+
+.parrafo {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  text-align: justify;
+  text-justify: distribute;
+  position: relative;
+  transform: translateX(0%);
+}
