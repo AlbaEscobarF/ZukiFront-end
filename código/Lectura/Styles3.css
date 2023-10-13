@@ -1,0 +1,103 @@
+body {
+}
+.container {
+  width: 480px;
+  height: 560px;
+  justify-content: center;
+  background-color: #fed3c7;
+  border-radius: 30px;
+  align-items: center;
+  padding: 50px;
+  position: relative;
+  transform: translateX(300px) translateY(3%);
+  box-shadow: 2px 7px 10px rgba(180, 180, 180, 50%);
+}
+.titulo {
+  text-align: center;
+  background-color: #f5bfb1;
+  border-radius: 20px;
+  height: 60px;
+  transform: translateY(0px);
+  box-shadow: 1px 1px 1px rgba(180, 180, 180, 10%);
+}
+h1 {
+  font-size: 2.5em;
+  transform: translateY(5px);
+}
+.botones {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.button1 {
+  position: relative;
+  transform: translateX(0%) translateY(50px);
+  border-radius: 20px;
+  background-color: #ffe1d9;
+  box-shadow: 2px 7px 10px rgba(180, 180, 180, 50%);
+  border: 0;
+  text-decoration: none;
+}
+
+.button1:hover {
+  background-color: #edcac1;
+}
+
+.button2 {
+  position: relative;
+  transform: translateX(0%) translateY(100px);
+  border-radius: 20px;
+  background-color: #ffe1d9;
+  box-shadow: 2px 7px 10px rgba(180, 180, 180, 50%);
+  border: 0;
+}
+
+.button2:hover {
+  background-color: #edcac1;
+}
+
+.button3 {
+  position: relative;
+  transform: translateX(0%) translateY(150px);
+  border-radius: 20px;
+  background-color: #ffe1d9;
+  box-shadow: 2px 7px 10px rgba(180, 180, 180, 50%);
+  border: 0;
+}
+
+.button3:hover {
+  background-color: #edcac1;
+}
+
+.button4 {
+  position: relative;
+  transform: translateX(0%) translateY(200px);
+  border-radius: 20px;
+  background-color: #ffe1d9;
+  box-shadow: 2px 7px 10px rgba(180, 180, 180, 50%);
+  border: 0;
+}
+.button4:hover {
+  background-color: #edcac1;
+}
+
+.close {
+  border-radius: 50px;
+  height: 60px;
+  width: 60px;
+  transform: translateX(580px) translateY(0px);
+  background-color: #fa8f72;
+  border: 0;
+  box-shadow: 2px 7px 10px rgba(180, 180, 180, 50%);
+}
+.x {
+  font-size: 1.9em;
+  justify-content: center;
+  transform: translateY(-9px);
+}
+.close:hover {
+  background-color: #e6866c;
+}
+a {
+  color: black;
+}
