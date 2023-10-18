@@ -36,6 +36,9 @@ body {
   height: 60px;
   width: 240px;
   box-shadow: 2px 7px 10px rgba(180, 180, 180, 50%);
+  background-color: #f6ffed;
+}
+.button1:hover {
   background-color: #afcb93;
 }
 h2 {
@@ -49,7 +52,7 @@ h2 {
   height: 60px;
   width: 240px;
   box-shadow: 2px 7px 10px rgba(180, 180, 180, 50%);
-  background-color: #f6ffed;
+  background-color: #afcb93;
 }
 .button2:hover {
   background-color: #afcb93;
@@ -81,6 +84,9 @@ h2 {
 .li3 {
   position: relative;
   transform: translateX(0px) translateY(40px);
+}
+a {
+  color: black;
 }
 .close {
   border-radius: 50px;
